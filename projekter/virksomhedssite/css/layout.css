@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+}
+
+/* navigationsbar */
+header {
+    margin-top: 40px;
+    height: 100px;
+    background-color:  #082673;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+} 
+.navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+padding: 45px;
+display: block;
+text-align: center;
+}
+
+.navbar a:hover {
+    color: #e64229;
+    scale: 1.1;
+}
+.logo {
+    margin-right: auto; 
+}
+
+.logo img {
+    height: 100px;
+}
+
+.nav_phone {
+    height: 20px;
+    width: 20px;
+}
+.contact-box {
+    color: black;
+    background-color: #e64229;
+    border-radius: 20px;
+    margin: 60px;
+    padding: 15px 15px;
+    height: 25px;
+    align-items: center;
+
+}
+
+/* footer */ 
+footer {
+    background-color: #082673;
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-column h4 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.fb_logo {
+    height: 40px;
+}
+
+/* priseksempler indhold */
+
+/* baggrundsbillede */
+.p_background_image {
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    background-size: cover;
+}
+
+.p_background_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* beskrivelse */
+.p_beskrivelse {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: 20px;
+    
+}
+
+.p_column_1 {
+    padding: 20px;
+    width: 500px;   
+    margin-right: 20px;
+    background-color: #d4e6f3;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px;
+}
+
+/* billede */
+.image_container {
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px;
+    }
+    
+    .image_container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.kontakt {
+    background-color: #e64229;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    padding: 10px;  
+    margin-left: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* pris eksemplerer */
+.p_eksempler {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.eksempel {
+    background-color: #d4e6f3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px;
+margin: 10px;
+padding: 10px;
+}
+
+#priseksempel_overskrift {
+    text-align: center;
+}
+
+#pris {
+    color: #e64229;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

@@ -1,0 +1,114 @@
+/* Bargalleri grid for mobile */
+@media (max-width: 768px) {
+  .grid-container_2-3 {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .grid-item {
+    background-color: transparent;
+    padding: 20px;
+}
+}
+
+/* Bargalleri grid for desktop */
+@media (min-width: 769px) {
+.grid-container_2-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto); 
+    padding: 20px; 
+    margin-left: 200px;
+}
+
+    .grid-item {
+      background-color: transparent;
+      padding: 20px;
+}
+}
+
+/* Barsiders grid */
+.grid-container_1-1 {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  
+}
+
+.item1_1-1 {  
+  background-color: #dddddd;
+  padding: 20px;
+  text-align: center;
+  margin-left: 250px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+
+.grid-container_3-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column; /* Lay out items from left to right */
+    margin-left: 250px;
+    margin-right: 50px;
+    background-color: #dddddd;
+  }
+  
+  .grid-item-barsite {
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .grid-item-barsite h2 { 
+    font-family: Underoverskrift;
+    font-size: 16;
+    color: #6B298C;
+}
+  
+.image-container2 {
+  width: 250px; /* Bredde af containeren */
+  height: 200px; /* Højde af containeren */
+  border-radius: 30px;
+  object-fit: cover; /* Cover the entire container with the image */
+}
+
+.image-container3 {
+  width: 500px; /* Bredde af containeren */
+  height: 200px; /* Højde af containeren */
+  border-radius: 30px;
+  
+}
+  .item1 {
+    grid-column: 1; 
+    grid-row: 1 / span 2; 
+  }
+  
+  .item2 {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+  
+  .item3 {
+    grid-column: 3; 
+    grid-row: 1;
+  }
+  
+  .item4 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
+  .item5 {
+    grid-column: 3;
+    grid-row: 3; 
+  }
+  
+  .item6 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+  
+  

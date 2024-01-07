@@ -1,0 +1,480 @@
+body {
+    background-color: #0e0e0e;
+    height: 100%;
+}   
+
+p {
+    color: rgb(219, 219, 219);
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* NAVIGATION */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  nav {
+    display: flex;
+  } 
+  
+  nav a {
+    color: rgb(219, 219, 219);
+    border-right: 1px solid white;
+    padding-right: 15px;
+    text-decoration: none;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+    font-family: 'headline';
+  }
+
+  #contact {
+    padding: 0 10px;
+    color: black;
+    background-color: #62249f;
+    border-right: none;
+    border-radius: 10px;
+  }
+
+  nav a:hover {
+    color: #62249f;
+  }
+  
+  #menu-icon {
+    display: none;
+  }
+
+
+h1 {
+    color: rgb(219, 219, 219);
+    font-family: 'headline';
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(219, 219, 219);
+    font-family: 'headline';
+    font-size: 3em;
+}
+
+
+/* frontpage styling */
+
+#fp_headline {
+    margin-left: 10%;
+    line-height: 3.3em;
+}
+
+#nikolaj {
+    color: #62249f;
+    font-size: 1.35em; 
+}
+
+
+
+#fp_description {
+    position: absolute;
+    top: 60%;
+    left: 47%;
+}
+
+#copenhagen {
+    color:#62249f;
+    font-size: 2.18em;
+    line-height: 0.6em;
+}
+
+#academy {
+    line-height: 0.6em;
+    font-size: 1.46em;
+    color:#62249f;
+
+}
+#fppb {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+#fp_explore {
+    color: #62249f;
+    font-family: 'explore';
+    text-decoration: none;
+    font-size: 6em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px #62249f;
+    animation: flicker 0.6s infinite;
+}
+
+#fp_explore:hover {
+    color:#0C9527;
+    text-shadow: 2px 2px 4px rgba(42, 4, 63, 0.5);
+    animation: end;
+   
+}
+
+/* projects */
+
+
+#p_headline {
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid #62249f;;
+}
+
+#p_projects {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.p_purple {
+    color:#62249f;
+    
+}
+
+.p_title {
+    font-size: 3em;
+    margin: 0;
+    padding-left: 10%;
+}
+.p_title2 {
+    margin: 0;
+    padding-left: 10%;
+}
+
+.p_text {
+padding: 0 10%;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.2em;
+color: white;
+}
+
+.p_container {
+    width: 40vw; 
+    height: 35vh; 
+    overflow: hidden;
+    position: relative;
+}
+
+.p_container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.p_explore {    
+    display: flex;
+    align-items: center; 
+    font-family: 'explore';
+    font-size: 3em;
+    padding: 0 10%;
+}
+
+.p_explore a {
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #62249f;
+    color: #62249f;
+}
+
+.p_explore a img {
+    vertical-align: middle; 
+}
+
+.p_explore a:hover,
+.p_explore a:active {
+        animation: slideRight 0.3s ease forwards;
+}
+
+/* about  me */
+
+#a_content {
+    margin-right: 10%;
+    align-items: center;
+    padding: 0 10%;
+    
+}   
+#a_headline {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+    }
+    
+    #a_me {
+        color: #62249f;
+    }
+
+#a_textbox {
+    color: rgb(227, 227, 227);
+    border-bottom: 1px solid #62249f;
+    border-top: 1px solid #62249f;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-size: 1.2em;
+ 
+}
+
+.a_buttons {
+    display: flex;
+    font-family: 'explore';
+    font-size: 3em;
+    justify-content: center;
+    
+}
+
+.a_buttons a{
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #62249f;
+    text-align: center;
+    color:#62249f;
+   
+}
+
+.a_buttons a:hover {
+    color:#0C9527;
+    scale: 1.1
+}
+
+#a_projects {
+    font-size: 1.28em;
+}
+
+#a_img {
+    padding-top: 10%;
+    padding-left: 10%;
+    border-left: 1px solid #62249f;
+}
+
+/* project sides */
+
+.t_headline {
+    margin-left: 1%;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+.text1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.t_ph {
+    margin-top: 5%;
+    color: #62249f
+}
+
+.t_button {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'headline';
+    background-color: #62249f;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.img_container1 {
+    width: 20vw; 
+    height: 40vh; 
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.img_container1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left:10%;
+    margin-top: 15%;
+}
+
+.img_container2 {
+    width: 40vw;
+    height: 35vh;
+    padding-top: 5%;
+    overflow: hidden;
+    position: relative;
+    grid-column: span 2;
+}
+
+.img_container2 img {
+    margin-left:5%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+
+.t_explore {
+    text-shadow: 3px 3px 5px #62249f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    grid-row: span 1;
+    grid-column: span 2;
+   
+}
+
+.t_explore a {
+    text-decoration: none;
+    color: #62249f;
+    font-family: 'explore';
+    animation: distort 0.3s infinite;
+    font-size: 4em;
+}
+
+.t_explore a:hover {
+    color:#0C9527;
+    animation: end;
+}
+
+.text2 {
+    grid-column: span 2;
+    padding-right: 10%;
+}
+
+/* animation og javascriot */
+
+/* img */
+
+.animation_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 800px;
+    margin: 10% 15%;
+    animation: pulse 0.5s infinite;
+}
+
+.hideAnimation {
+    animation: hideImage 0.5s forwards;
+}
+
+/* aktivitetsdiragram */
+
+#a_diagram {
+    margin-top: 5%;
+    grid-column: span 4;
+    width: 200%;
+    height: auto;
+    border: 1px solid #333;
+    animation: glow 2s infinite;
+}
+
+#a_diagram:hover {
+    transform: translateX(50%) scale(2.5); 
+    animation: end;
+  }
+/* gæt et tal */
+
+.guess_container {
+    width: 20vw; 
+    height: 30vh; 
+    overflow: hidden;
+    position: relative;
+    padding: 2%;
+}
+
+input,
+button {
+  font-size: 1em;
+}
+
+button {
+margin-left: 20%;
+}
+
+#guesses {
+  width: 10%;
+  height: 10%;
+  border: dashed red 1px;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  font-family: archivo_bold;
+  font-size: 1em;
+}
+
+#message {
+  font-size: 1em;
+}
+
+/* stan saks papir */
+#spilDiv {
+    width: 40vw;
+    height: 45vh;
+    background-color: #7e30cb;
+    text-align: center;
+    margin: 5%;
+    grid-column: span 2;
+}
+#buttons {
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+}
+.valgKnap {
+    cursor: pointer;
+}
+#resultat {
+    font-size: 1em;
+    margin-top: 10px;
+}
+#valg {
+    margin-top: 20px;
+}
+#pointtavle {
+    font-size: 1em;
+    margin-top: 20px;
+}
+.vind {
+    color: rgb(13, 255, 13);
+}
+.tab {
+    color: rgb(255, 43, 43);
+}
+
+/* nav bar på mobil */
+@media only screen and (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+      }
+    
+      nav.show {
+        display: flex;
+      }
+    
+      nav a {
+        margin: 10px 0;
+      }
+    
+      #menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5em;
+        color: white;
+      }
+}
+
+/* images max-width100%, fontsize em or rem */
+
+/* test */
+
+

@@ -1,0 +1,169 @@
+#screen {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  
+  #game {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  
+  #game_background {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/start_game.svg);
+    background-size: cover;
+  }
+
+  #game_foreground {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    pointer-events: none;
+  }
+  
+  #game_ui {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  #go {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 50%;
+    height: 100%;
+    scale: 0.2;
+    aspect-ratio: 16/9;
+    background-image: url(../img/go.svg);
+  }
+  /*
+ #sun {
+  position: absolute;
+  width: 5%;
+  height: 9%;
+  top: 5%;
+  left: 50%;
+  background-image: url(../img/sun.svg);
+  scale: 2.5;
+ } 
+
+ /*
+ #game_middleground {
+  position: absolute;
+  background-image: url(../img/game_middelground.svg);
+  width: 100%;
+  height: 100%;
+ }
+  
+
+ /* 
+  #game_elements {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+
+#sunflower_container {
+  position: absolute;
+  width: 14%;
+  aspect-ratio: 5/7;
+  transform-origin: center 95%;
+  }
+
+#sunflower_sprite {
+  width: 80%;
+  height: 80%;
+  background-image: url(../img/sunflower.svg);
+  background-size: cover;
+}
+
+#poppy_container {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  width: 14%;
+  aspect-ratio: 5/7;
+  transform-origin: center 95%;
+}
+
+#poppy_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/poppy\ .svg);
+  background-size: cover;
+}
+
+#margeurit_container {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: 14%;
+  aspect-ratio: 5/7;
+  transform-origin: center 95%;
+}
+
+#margeurit_sprite {
+  width: 50%;
+  height: 50%;
+  background-image: url(../img/margeurit.svg);
+  background-size: cover;
+}
+
+
+#game_foreground {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  pointer-events: none;
+}
+
+#game_ui {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#health {
+
+}
+
+#score_board {
+
+}
+
+
+#start {
+
+}
+
+#game_over {
+
+}
+
+#level_complete {
+
+}

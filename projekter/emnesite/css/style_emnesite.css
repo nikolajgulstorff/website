@@ -1,0 +1,252 @@
+
+@font-face {
+    font-family: 'Overskrift';
+        src: url('/fonts/GraffitiCity.woff2');
+}
+
+@font-face {
+    font-family: 'Navigation';
+        src: url('/fonts/A4SPEED-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Underoverskrift';
+        src: url('/fonts/Heavitas.woff2');
+}
+
+body {
+    background-color:black;
+}
+
+p {
+    color: #424242;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Forside kort */
+.kort_container {
+    width: 900px; /* Set the width and height of the map container */
+    height: 420px;
+    margin-left: 250px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.kort {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.icon-container {
+    position: absolute;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+
+.icon_1 {
+    top: 505px; /* Adjust the top value to position Icon 1 vertically */
+    left: 540px; /* Adjust the left value to position Icon 1 horizontally */
+    background-image: url("/img/Kort/maplogo.png"); /* Initial icon image */
+    background-size: cover;
+    z-index: 1; /* Ensure the icons are above the map image */
+    transition: background-image 0.1s; /* Add a transition for smooth image change */
+}
+
+.icon_2 {
+    top: 415px; /* Adjust the top value to position Icon 2 vertically */
+    left: 820px; /* Adjust the left value to position Icon 2 horizontally */
+    background-image: url("/img/Kort/maplogo.png"); /* Initial icon image */
+    background-size: cover;
+    z-index: 1;
+    transition: background-image 0.1s;
+}
+
+.icon_3 {
+    top: 370px; /* Adjust the top value to position Icon 2 vertically */
+    left: 805px; /* Adjust the left value to position Icon 2 horizontally */
+    background-image: url("/img/Kort/maplogo.png"); /* Initial icon image */
+    background-size: cover;
+    z-index: 1;
+    transition: background-image 0.1s;
+}
+
+.icon_4 {
+    top: 450px; /* Adjust the top value to position Icon 2 vertically */
+    left: 785px; /* Adjust the left value to position Icon 2 horizontally */
+    background-image: url("/img/Kort/maplogo.png"); /* Initial icon image */
+    background-size: cover;
+    z-index: 1;
+    transition: background-image 0.1s;
+}
+
+.icon_5 {
+    top: 215px; /* Adjust the top value to position Icon 2 vertically */
+    left: 700px; /* Adjust the left value to position Icon 2 horizontally */
+    background-image: url("/img/Kort/maplogo.png"); /* Initial icon image */
+    background-size: cover;
+    z-index: 1;
+    transition: background-image 0.1s;
+}
+
+.icon_6 {
+    top: 445px; /* Adjust the top value to position Icon 2 vertically */
+    left: 440px; /* Adjust the left value to position Icon 2 horizontally */
+    background-image: url("/img/Kort/maplogo.png"); /* Initial icon image */
+    background-size: cover;
+    z-index: 1;
+    transition: background-image 0.1s;
+}
+
+/* Hover effect to change the icon background image */
+.icon:hover {
+    transform: scale(1.1); /* Scale up the icon when hovered */
+}
+
+.icon_1:hover {
+    background-image: url("/img/Kort/maphover.png");
+    
+}
+
+.icon_2:hover {
+    background-image: url("/img/Kort/maphover.png"); 
+}
+
+.icon_3:hover {
+    background-image: url("/img/Kort/maphover.png"); 
+}
+
+.icon_4:hover {
+    background-image: url("/img/Kort/maphover.png"); 
+}
+
+.icon_5:hover {
+    background-image: url("/img/Kort/maphover.png"); 
+}
+
+.icon_6:hover {
+    background-image: url("/img/Kort/maphover.png"); 
+}
+
+
+.hover-image {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -120px; /* Adjust the top value to position the hover image above the icon */
+    left: 10px;
+    opacity: 0; /* Initially hide the hover image */
+    transition: opacity 0.4s; /* Add a transition for smooth appearance */
+}
+
+.icon:hover .hover-image {
+    opacity: 1; /* Show the hover image on icon hover */
+}
+
+.icon-link {
+    display: inline-block; /* Make the link a block element to take up the entire icon area */
+    width: 50px;
+    height: 50px;
+    text-decoration: none; /* Remove underlines from links */
+    cursor: pointer;
+}
+/* Universel header */
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+}
+.logo {
+    width: 120px; 
+    height: 120px; 
+    transition: filter 0.3s ease;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 25px rgba(255, 252, 77, 0.8));
+}
+
+.header-title {
+    font-size: 72px; 
+    font-family: overskrift;
+    color: #D8FF4A;
+    justify-content: center;
+    flex-grow: 1; 
+    text-align: center; 
+    margin: 0; 
+}
+
+.arrow {
+    width: 100px;
+    position: absolute; /* Position the arrow absolutely within the header */
+    top: 25%;
+    left: 245px
+}
+
+.arrow:hover {
+    filter: drop-shadow(0 0 25px rgba(255, 252, 77, 0.8));
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+/* Bargalleri styles */
+
+.rectangle {
+    position: relative;
+    text-align: center;
+    width: 400px; /* Bredde af containeren */
+    height: 240px;
+    border: 2px solid #6B298C;
+    border-radius: 30px;
+    transform-origin: top left;
+    transition: all 0.3s ease;
+}
+.rectangle:hover {
+    transform: scale(1.05);
+}
+
+.rectangle a {
+    font-family: underoverskrift;
+    font-size: 20px;
+    line-height: 28px; 
+    color: #6B298C;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.rectangle a:hover {
+    color: #D8FF4A; 
+    text-shadow: 0 0 15px #6B298C; 
+    font-size: 0.9em;
+}
+
+
+.rectangle a:active {
+    font-size: 24;
+}
+
+.image-container {
+    width: 100%; /* Bredde af containeren */
+    height: 89%; /* Højde af containeren */
+    overflow: hidden; /* Skjul eventuelt overskydende indhold */
+    margin: 0 auto; 
+    border-radius: 0px 0px 30px 30px;
+}
+
+/* Stil for billeder */
+.rectangle img {
+    width: 100%; /* Set the width to 100% to make the image fill the container */
+    height: 100%; /* Set the height to 100% to maintain aspect ratio */
+    object-fit: cover;
+}

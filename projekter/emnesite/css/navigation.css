@@ -1,0 +1,57 @@
+.sidebar {
+    width: 210px; /* Bredden af sidebjælken */
+    background-color: black;
+    height: 100vh; /* 100% af viewportens højde */
+    position: fixed;
+    left: 0;
+}
+
+/* Stil for navigationsbaren */
+.navbar {
+    padding: 20px;
+    margin-top: 5px;   
+}
+
+/* Stil for cirkelbilleder */
+.circle {
+    width: 210px;
+    height: 100px;
+    background-image: url('/img/Header/nav3.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6B298C;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Juster eventuelt farver og tekststørrelser efter behov */
+.circle span {
+    font-size: 12px;
+    font-family: navigation;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+/* Stil for linkene */
+.navbar a {
+    text-decoration: none;
+    color: #D8FF4A; 
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    text-decoration: none; 
+    color: #6B298C;
+    filter: drop-shadow(0 0 10px rgba(104, 23, 176, 0.8)); 
+    font-size: 1.1em;
+}
+
+.navbar a:active {
+    font-size: 1.2em;
+}
+

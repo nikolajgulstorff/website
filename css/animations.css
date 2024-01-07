@@ -1,0 +1,81 @@
+/* flicker FP */
+@keyframes flicker {
+    0%, 100% {
+      opacity: 1;
+    }
+    20% {
+        opacity: 0.3
+    }
+    30% {opacity: 0.6}
+
+    50% {
+      opacity: 0.1;
+    }
+    60% {
+        opacity: 0.4
+    }
+    70% {opacity: 0.1;}
+  }
+
+/* slide projects */
+
+  @keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(25px); 
+    }
+}
+
+/* distort */
+
+@keyframes distort {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translate(-8px, -8px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translate(8px, 8px); 
+    }
+}
+
+/* img animation */
+
+@keyframes hideImage {
+    0% {
+        opacity: 1;
+        scale: 1;
+        transform: translatex(0) rotate(0);
+    }
+    100% {
+        opacity: 0;
+        scale: 0;
+        transform: translatex(-10px) rotate(360deg);
+    }
+}
+
+
+@keyframes pulse {
+    0% {
+        scale: 1.1;
+    }
+
+    100% {
+        scale: 1.2;
+    }
+}
+
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #0C9527; 
+    }
+    50% {
+      box-shadow: 0 0 20px #0C9527; 
+    }
+    100% {
+      box-shadow: 0 0 5px #0C9527;
+    }
+  }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <title>BASIC ANIMATION</title>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" id="logo"><img src="/img/logo.webp"></a>
+    <nav>
+    <a href="/index.html">FORSIDE</a>
+    <a href="/html/Projects.html">PROJEKTER</a>
+    <a href="/html/about.html">OM MIG</a>
+    <a id="contact" href="/html/contact">KONTAKT</a>
+    </nav>
+    <div id="menu-icon">&#9776;</div>
+</header>
+  
+<h1 class=t_headline>BASIC<br><span class="p_purple">ANIMATION</span></h1>
+
+<section class="t_project1">
+  <div class="text1">
+    <h2 class="t_ph">TEMA 04: ANIMATION OG JAVASCRIPT: TEMAOPGAVE</h2>
+      <p>Under semesteres fjerde tema byggede jeg videre på mine evner til at kode ved b.l.a omhyggeligt at gennemføre samtlige øvelser i CSS keyframe 
+        animationer og javascript. Gennem øvelelser udviklede jeg en grundlæggende forståelse for de principper keyframes og javascript bygger på,
+        hvilket har givet mig et fundament til at kunne kode mere dynmaiske og avancerede websitet. Ved bl.a at bruge Javascripts addEventListener, classList.add/remove, queryselector
+        blev det muligt at tilfjøje klasser, animationer og/eller tilkalde funktioner til mine html elementer når brugeren klikkede på dem, og dermed gøre oplevelsen væsentligt mere indlevende.
+        Der blev i undervisningen lagt vægt på værdien af at bruge console.log() og tilkalde funktioner til inspector konsollen, som personligt viste sig uundværlig til at debugge min kode.<br><br>
+
+        I temaets hovedopgave skulle jeg kode mit eget simple spil med udgangspunkt i min spilidé, aktivitetsdiagram og illustratoner. På grund af personlige omstændigheder,
+        kom jeg ikke i mål med kodningen af mit eget spil, men i gennemgangen af undervisernes "svampespil" fulgte jeg ihærdigt med, hvilket var vigtigt i min indlæringsproces og styrkede mine grundlæggende forståelse af javascript yderligere.
+       
+      </p>
+      <br>
+      
+  </div>
+
+  <div class="animation_img">
+    <img src="/img/logo.webp" id="animatedImg">
+  </div>
+
+  <div class="guess_container" id="scene">
+    <h2>Gæt et tal</h2>
+    <div id="guesses"></div>
+    <div id="message_container">
+      <p id="message"></p>
+    </div>
+    <input type="text" size="5" /><button>Gæt</button>
+  </div>
+
+  <div id="spilDiv">
+    <h2 style="color: #000000;">Sten, Saks, Papir</h2>
+    <div id="resultat"></div>
+    <div id="valg"></div>
+    <div id="pointtavle">Point: Spiller 0 - Computer 0</div>
+    <div id="buttons">
+    <button class="valgKnap" onclick="træfValg('sten')">
+      <img src="/img/projekter/rock_04 kopier.webp" alt="Sten">
+  </button>
+  <button class="valgKnap" onclick="træfValg('papir')">
+      <img src="/img/projekter/paper_04 kopier.webp" alt="Papir">
+  </button>
+  <button class="valgKnap" onclick="træfValg('saks')">
+      <img src="/img/projekter/scissor_04.webp" alt="Saks">
+  </button>
+</div>
+</div>
+
+<div>
+
+</div>
+
+
+</section>
+
+<section class="t_project1">
+  <div class="text1">
+    <h2 class="t_ph">TEMA 04: STIL OG IlLUSTRATIONER</h2>
+      <p> 
+        I animations temaet havde vi undervisning i formgivning- og kompositionsprincipper til design af UI og spil-elementer. 
+        Med udgangspunkt i min valgte stil, Kawaii, skitserede jeg mit spils "gode" figurer og elementer udfra bouba-effektens bløde former, således de fik
+        et nuttet og uskyldigt udtryk. Jeg gjorde ikke brug af "solid drawing" og knapt af "a line of action", hvilket betød mine figurer blev flade to-dimensionelle karakterer, der var næsten helt symmetriske.
+        Det gjorde designet simpelt og dermed let at forholde sig til for det brede publikum. I mine "dårlige" figurer gjorde jeg brug af kiki-princippets skarpere linjer,
+        for at signalere, at der var tale om noget farligt. <br><br>I min bag- og middelgrundskomposition gjorde jeg brug af <span class="p_purple">atmosfærisk perspektiv</span>, hvilket tilføjede dybde til mit ellers flade design og gjorde det mere dynamisk. 
+        Senere stiftede jeg bekendtskab med adobe illustrator, hvor jeg blev velkendt med en række værktøjer til senere at rentegne mine skitser.
+        I mit samlede design ønskede jeg at kompopositionere mine spilelementer efter <span class="p_purple">rule of thirds</span>, for at gøre det meget rolige design en anelse mere dynamisk, men jeg kom desværre aldrig dertil. 
+       </p>
+       <br>
+       <a class="t_button" href="/projekter/spilsite/index.html">SE ALLE ILLUSTRATIONER</a>
+  </div>
+
+  <div class="img_container1">
+    <img src="/img/projekter/gamecharcter_04.webp">
+  </div>
+
+  <div class="img_container1">
+    <img src="/img/projekter/brændenælde_04.webp">
+  </div>
+
+  <div class="img_container2">
+    <img src="/img/projekter/gamebackground_04.svg">
+  </div>
+ 
+</section>
+
+<section class="t_project2">
+
+<div class="text2">
+  <H2 class="t_ph">TEMA 04: AKTIVITETSDIAGRAM</H2>
+<p>
+I opgaven "Aktivitetsdiagram for eget spil" tog jeg udgangspunkt i min spil idé og anvendte drawio til at optegne et aktivitetsdiagram. 
+Forud for opgaven havde jeg taget stilling til, hvilke præmisser spillet skulle baseres på, herunder, hvad der skulle ske når man klikkede på spillets gode/dårlige elementer og
+hvordan liv ti, point og tid skulle illusteres samt opdateres. På den baggrund kunne jeg i aktivitetsdiagrammet tilrettelægge, hvilke hændelser der skulle udløse nye hændelser og der igennem planlægge spillets flow.
+Aktivitetsdiagrammet kunne derfor have været særligt nyttigt som en skabelon til når jeg skulle kode mit spil og hjulpet med at holde overblikket i, hvilke funktioner der skulle tage sted i spillets forskellige situationer.
+Aktivitetsdiagrammet fremhævede tilmed mine alt for amibtiøse planer om oceaner af animationer og hændelser og gav derfor anledning til at nedskalere mit spil fra noget alt for kompliceret til noget lidt mere håndgribeligt.
+</p>
+<br>
+</div>
+
+<div class="t_explore">
+  <a href="Projects.html">UDFORSK<br>FLERE<br>PROJEKTER</a>
+  </div>
+  <div>
+  <img src="/img/projekter/aktivitetsdiagram_04.webp" id="a_diagram">
+  </div>
+ 
+</section>
+
+
+</main>
+<script src="/js/script.js"></script>
+</body>
+</html>

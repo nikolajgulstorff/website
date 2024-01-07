@@ -1,0 +1,29 @@
+body {
+    background-color:rgb(7, 201, 91);
+    margin:20px;
+}
+
+header {
+    background-color:green;
+}
+
+img {
+    width:50%;
+}
+
+h1,h2,h3 {
+    color:rgb(53, 7, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

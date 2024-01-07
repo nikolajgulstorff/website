@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_00000034779432914923152860000006995468036405383569_);}
+	.st2{fill:url(#SVGID_00000000925300204221700820000002658936068773348486_);}
+	.st3{fill:url(#SVGID_00000106842339163814122240000001325349148166052521_);}
+	.st4{fill:url(#SVGID_00000152247117643844804830000016166955665894805654_);stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:url(#SVGID_00000152225929910409104060000008934808902368609932_);}
+</style>
+<g id="Himmel">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="959.2969" y1="473.786" x2="951.7212" y2="-27.7291">
+		<stop  offset="0" style="stop-color:#152AFF;stop-opacity:0.5"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.8"/>
+	</linearGradient>
+	<polygon class="st0" points="0.5,0 0.5,1073.76 1920,1080 1920,0 	"/>
+</g>
+<g id="Græsplæne">
+	
+		<linearGradient id="SVGID_00000090273628319957183220000018396965152487826077_" gradientUnits="userSpaceOnUse" x1="0" y1="795.8766" x2="1920" y2="795.8766">
+		<stop  offset="0" style="stop-color:#00D45A"/>
+		<stop  offset="1" style="stop-color:#222522"/>
+		<stop  offset="1" style="stop-color:#231F20"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000090273628319957183220000018396965152487826077_);" d="M1920,744.97
+		c0,0-407.5-115.47-789.5-212.47S0,710.12,0,710.12V1080h1920V744.97z"/>
+	
+		<linearGradient id="SVGID_00000106840797414123435300000012966125281323388074_" gradientUnits="userSpaceOnUse" x1="1280.7513" y1="616.0704" x2="1920" y2="616.0704">
+		<stop  offset="0" style="stop-color:#231F20"/>
+		<stop  offset="1" style="stop-color:#00D45A;stop-opacity:0.4"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000106840797414123435300000012966125281323388074_);" d="M1920,622.24
+		c-93.5-106.26-251.5-131.74-251.5-131.74c-117-23-387.75,80.72-387.75,80.72L1920,744.97V622.24z"/>
+	
+		<linearGradient id="SVGID_00000183940299963223248700000010023270586460029569_" gradientUnits="userSpaceOnUse" x1="0.5" y1="620.8385" x2="425.9811" y2="620.8385">
+		<stop  offset="0" style="stop-color:#00FFBE;stop-opacity:0.5"/>
+		<stop  offset="1" style="stop-color:#231F20"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000183940299963223248700000010023270586460029569_);" d="M425.98,584.1
+		C332.96,575.7,213.2,540,213.2,540C111.39,508.5,0.5,575.27,0.5,575.27v134.85L425.98,584.1z"/>
+	<g>
+	</g>
+	
+		<linearGradient id="SVGID_00000033342465246263850180000009560088594967301038_" gradientUnits="userSpaceOnUse" x1="0.5" y1="0" x2="0.5" y2="0">
+		<stop  offset="0" style="stop-color:#00FFBE;stop-opacity:0.5"/>
+		<stop  offset="1" style="stop-color:#231F20"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_00000033342465246263850180000009560088594967301038_);stroke:#000000;stroke-miterlimit:10;" d="
+		M0.5,0"/>
+</g>
+<g id="Sol">
+	
+		<radialGradient id="SVGID_00000178196046494894793800000002664686338839454864_" cx="1600.5" cy="186.5" r="136.5" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFA300;stop-opacity:0.5"/>
+		<stop  offset="1" style="stop-color:#FDFF15;stop-opacity:0.1"/>
+	</radialGradient>
+	<circle style="fill:url(#SVGID_00000178196046494894793800000002664686338839454864_);" cx="1600.5" cy="186.5" r="136.5"/>
+</g>
+</svg>

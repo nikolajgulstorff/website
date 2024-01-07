@@ -1,0 +1,54 @@
+
+/* front page */
+
+
+
+
+/* projects grid */
+
+.p_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0 10%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #62249f;
+    align-items: center;
+}
+
+
+
+/* about me grid */
+
+.a_grid {
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    
+    
+}
+
+/* theme grid */
+
+
+.t_project1 {
+    height: 84vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-bottom: 1px solid #62249f;
+    border-top: 1px solid #62249f;
+}
+
+.t_project2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 10%;
+    padding-right: 10%;
+}

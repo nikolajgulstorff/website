@@ -1,0 +1,76 @@
+body {
+    background-color:firebrick;
+    margin:20px;
+}
+
+header {
+    background-color: rgb(97, 15, 15);
+}
+
+header ul {
+    list-style: none;
+    padding:5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: white;
+}
+
+button {
+    background-color:black;
+    color: white;
+}
+
+main {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 100%;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2,h3 {
+    color:rgb(97, 15, 15);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: firebrick;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+dl {
+    color: firebrick;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p {
+    color: firebrick;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.uwu {
+    text-decoration: underline;
+    color: firebrick;
+}
